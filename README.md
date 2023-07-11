@@ -8,6 +8,36 @@
 **Difference between Primitive and Reference type:**  
 _Primitive types are copied by their values and reference types are copied by their address/references._
 
+### OBJECT CREATION
+There are two ways of creating an object:  
+**1.Factory function**
+```
+function createRectangle(len, bre){
+  let rectangle = {
+    length: 2,
+    breadth: 10,
+    draw: function(){
+      console.log("draw")
+    }
+  };
+  return rectangle;
+};
+let r1 = createRectangle(2,3);
+console.log(r1);
+```  
+**2.Constructor Function**
+```
+function Rectangle( len, bre){
+    this.len= len,
+    this.bre= bre,
+    this.draw= function(){
+    console.log("drawing")
+  }
+};
+let r2 = new Rectangle(4,6);
+console.log(r2);   
+```
+
 ### OBJECT CLONING  
 The object cloning is a way to create an exact copy of an object.  
 There are three ways to clone the object.
