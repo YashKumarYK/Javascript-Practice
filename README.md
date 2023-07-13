@@ -10,6 +10,6 @@ _Primitive types are copied by their values and reference types are copied by th
 
 ## Contents
 **Basic Javascript**
-1. [Objects](https://github.com/YashKumarYK/Javascript-Practice/blob/master/Notes/Object_intro.md)
+1. [Objects](https://github.com/YashKumarYK/Javascript-Practice/blob/master/Notes/Object_Intro.md)
 2. [Arrays](https://github.com/YashKumarYK/Javascript-Practice/blob/master/Notes/Array_intro.md)
 3. [Functions](https://github.com/YashKumarYK/Javascript-Practice/blob/master/Notes/Function_intro.md)
