@@ -25,8 +25,8 @@ This prints the whole body.
 ## Fetching Elements in JS  
 Users can use JavaScript to change HTML elements without overwriting them.  
 There are different ways to access the HTML elements in JS:  
+
 **1. getElementById()**  
-Syntax
 ```
 document.getElementById(element_ID);
 ```
@@ -34,8 +34,8 @@ document.getElementById(element_ID);
 2. It returns a single object.
 3. It is called on document.
 
+
 **3. getElementByClassName()**  
-syntax
 ```
 document.getElementsByClassName(element_class);
 ```
@@ -43,8 +43,8 @@ document.getElementsByClassName(element_class);
 2. It returns a multiple object.
 3. It is called on document.  
 
+
 **4. getElementByTagName()**  
-Syntax
 ```
 document.getElementsByTagName(tag_name);
 ```
@@ -53,18 +53,20 @@ document.getElementsByTagName(tag_name);
 3. It is called on document.
 4. the list is not an array.
    
+
 **5. $0**  
 Returns the most recently selected element or Javascript Object.  
 
+
 **6. querySelector()**  
-Syntax
 ```
 element.querySelector(selectors);
 ```
 1. Return the first element that matches a specified CSS selector(s) in the document.
-2. Returns single object.    
+2. Returns single object.      
+
+
 **7. querySelectorAll()**  
-Syntax
 ```
 element.querySelector(selectors);
 ```
